@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="projects page.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- navbar -->
+    <header id="navbar">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid" id="navitem">
+                <span><img src="Icons/S_copy-removebg-preview.png" alt="" /></span>
+                <a id="portifolio" class="navbar-brand" href="#">portfolIo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="portifolio.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="projects page.html">projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="certification page.html">certifcates</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <a class="button" href="#"><i class="fas fa-paperclip"></i> Add New project</a>
+
+    <div id="card-container">
+        <div id="fline">
+            <div id="card-item" class="card" style="width: 334px">
+                <img id="card-img" src="images/download.svg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 id="card-htitle" class="card-title">Card title</h5>
+                    <p id="card-tbody" class="card-text">
+                        Some quick example text to build on the card title and make up the
+                        bulk of the card's content.
+                    </p>
+                    <button id="card-button" class="btn btn-primary" onclick="showReadMore1p()">
+                        Read More
+                    </button>
+                </div>
+            </div>
+            <div id="card-item" class="card  item1" style="width: 599px">
+                <img id="card-img" src="images/download.svg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 id="card-htitle" class="card-title">Card title</h5>
+                    <p id="card-tbody" class="card-text">
+                        Some quick example text to build on the card title and make up the
+                        bulk of the card's content.
+                    </p>
+                    <button id="card-button" class="btn btn-primary" onclick="showReadMore2p()">
+                        Read More
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="sline">
+            <div id="card-item" class="card  item1" style="width: 599px">
+                <img id="card-img" src="images/download.svg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 id="card-htitle" class="card-title">Card title</h5>
+                    <p id="card-tbody" class="card-text">
+                        Some quick example text to build on the card title and make up the
+                        bulk of the card's content.
+                    </p>
+                    <button id="card-button" class="btn btn-primary" onclick="showReadMore3p()">
+                        Read More
+                    </button>
+                </div>
+            </div>
+            <div id="card-item" class="card item2" style="width: 334px">
+                <img id="card-img" src="images/download.svg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 id="card-htitle" class="card-title">Card title</h5>
+                    <p id="card-tbody" class="card-text">
+                        Some quick example text to build on the card title and make up the
+                        bulk of the card's content.
+                    </p>
+                    <button id="card-button" class="btn btn-primary" onclick="showReadMore4p()">
+                        Read More
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="tline">
+            <div id="card-item" class="card" style="width: 334px">
+                <img id="card-img" src="images/download.svg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 id="card-htitle" class="card-title">Card title</h5>
+                    <p id="card-tbody" class="card-text">
+                        Some quick example text to build on the card title and make up the
+                        bulk of the card's content.
+                    </p>
+                    <button id="card-button" class="btn btn-primary" onclick="showReadMore5p()">
+                        Read More
+                    </button>
+                </div>
+            </div>
+            <div id="card-item" class="card  item1" style="width: 599px">
+                <img id="card-img" src="images/download.svg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 id="card-htitle" class="card-title">Card title</h5>
+                    <p id="card-tbody" class="card-text">
+                        Some quick example text to build on the card title and make up the
+                        bulk of the card's content.
+                    </p>
+                    <button id="card-button" class="btn btn-primary" onclick="showReadMore6p()">
+                        Read More
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="sline">
+            <div id="card-item" class="card  item1" style="width: 599px">
+                <img id="card-img" src="images/download.svg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 id="card-htitle" class="card-title">Card title</h5>
+                    <p id="card-tbody" class="card-text">
+                        Some quick example text to build on the card title and make up the
+                        bulk of the card's content.
+                    </p>
+                    <button id="card-button" class="btn btn-primary" onclick="showReadMore7p()">
+                        Read More
+                    </button>
+                </div>
+            </div>
+            <div id="card-item" class="card item2" style="width: 334px">
+                <img id="card-img" src="images/download.svg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 id="card-htitle" class="card-title">Card title</h5>
+                    <p id="card-tbody" class="card-text">
+                        Some quick example text to build on the card title and make up the
+                        bulk of the card's content.
+                    </p>
+                    <button id="card-button" class="btn btn-primary" onclick="showReadMore8p()">
+                        Read More
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="tline">
+            <div id="card-item" class="card" style="width: 334px">
+                <img id="card-img" src="images/download.svg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 id="card-htitle" class="card-title">Card title</h5>
+                    <p id="card-tbody" class="card-text">
+                        Some quick example text to build on the card title and make up the
+                        bulk of the card's content.
+                    </p>
+                    <button id="card-button" class="btn btn-primary" onclick="showReadMore9p()">
+                        Read More
+                    </button>
+                </div>
+            </div>
+            <div id="card-item" class="card  item1" style="width: 599px">
+                <img id="card-img" src="images/download.svg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 id="card-htitle" class="card-title">Card title</h5>
+                    <p id="card-tbody" class="card-text">
+                        Some quick example text to build on the card title and make up the
+                        bulk of the card's content.
+                    </p>
+                    <button id="card-button" class="btn btn-primary" onclick="showReadMore10p()">
+                        Read More
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="sline">
+            <div id="card-item" class="card  item1" style="width: 599px">
+                <img id="card-img" src="images/download.svg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 id="card-htitle" class="card-title">Card title</h5>
+                    <p id="card-tbody" class="card-text">
+                        Some quick example text to build on the card title and make up the
+                        bulk of the card's content.
+                    </p>
+                    <button id="card-button" class="btn btn-primary" onclick="showReadMore11p()">
+                        Read More
+                    </button>
+                </div>
+            </div>
+            <div id="card-item" class="card item2" style="width: 334px">
+                <img id="card-img" src="images/download.svg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 id="card-htitle" class="card-title">Card title</h5>
+                    <p id="card-tbody" class="card-text">
+                        Some quick example text to build on the card title and make up the
+                        bulk of the card's content.
+                    </p>
+                    <button id="card-button" class="btn btn-primary" onclick="showReadMore12p()">
+                        Read More
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <dialog id="read-more1p">
+        <button onclick="closeDialog1()" class="close">
+            <i class='bx bx-x'></i>
+        </button>
+        <h1>
+            project NAME1
+        </h1>
+        <div class="description">
+            <img alt="Placeholder image with diagonal lines" height="150" src="https://placehold.co/150x150"
+                width="150" />
+            <h2>
+                Description:
+            </h2>
+            <p>
+                The wandering purple giraffes often sing under the golden glow of rainbow-flavored clouds,
+                especially on Thursdays when the invisible fish like to tap-dance. Meanwhile, the electric
+                pineapples discuss philodox with neon-colored owls, pondering why peanut butter doesn’t grow on
+                trees.
+            </p>
+        </div>
+    </dialog>
+    <dialog id="read-more2p">
+        <button onclick="closeDialog2()" class="close">
+            <i class='bx bx-x'></i>
+        </button>
+        <h1>
+            project NAME2
+        </h1>
+        <div class="description">
+            <img alt="Placeholder image with diagonal lines" height="150" src="https://placehold.co/150x150"
+                width="150" />
+            <h2>
+                Description:
+            </h2>
+            <p>
+                The wandering purple giraffes often sing under the golden glow of rainbow-flavored clouds,
+                especially on Thursdays when the invisible fish like to tap-dance. Meanwhile, the electric
+                pineapples discuss philodox with neon-colored owls, pondering why peanut butter doesn’t grow on
+                trees.
+            </p>
+        </div>
+    </dialog>
+    <dialog id="read-more3p">
+        <button onclick="closeDialog3()" class="close">
+            <i class='bx bx-x'></i>
+        </button>
+        <h1>
+            project NAME3
+        </h1>
+        <div class="description">
+            <img alt="Placeholder image with diagonal lines" height="150" src="https://placehold.co/150x150"
+                width="150" />
+            <h2>
+                Description:
+            </h2>
+            <p>
+                The wandering purple giraffes often sing under the golden glow of rainbow-flavored clouds,
+                especially on Thursdays when the invisible fish like to tap-dance. Meanwhile, the electric
+                pineapples discuss philodox with neon-colored owls, pondering why peanut butter doesn’t grow on
+                trees.
+            </p>
+        </div>
+    </dialog>
+    <dialog id="read-more4p">
+        <button onclick="closeDialog4()" class="close">
+            <i class='bx bx-x'></i>
+        </button>
+        <h1>
+            project NAME4
+        </h1>
+        <div class="description">
+            <img alt="Placeholder image with diagonal lines" height="150" src="https://placehold.co/150x150"
+                width="150" />
+            <h2>
+                Description:
+            </h2>
+            <p>
+                The wandering purple giraffes often sing under the golden glow of rainbow-flavored clouds,
+                especially on Thursdays when the invisible fish like to tap-dance. Meanwhile, the electric
+                pineapples discuss philodox with neon-colored owls, pondering why peanut butter doesn’t grow on
+                trees.
+            </p>
+        </div>
+    </dialog>
+    <dialog id="read-more5p">
+        <button onclick="closeDialog5()" class="close">
+            <i class='bx bx-x'></i>
+        </button>
+        <h1>
+            project NAME5
+        </h1>
+        <div class="description">
+            <img alt="Placeholder image with diagonal lines" height="150" src="https://placehold.co/150x150"
+                width="150" />
+            <h2>
+                Description:
+            </h2>
+            <p>
+                The wandering purple giraffes often sing under the golden glow of rainbow-flavored clouds,
+                especially on Thursdays when the invisible fish like to tap-dance. Meanwhile, the electric
+                pineapples discuss philodox with neon-colored owls, pondering why peanut butter doesn’t grow on
+                trees.
+            </p>
+        </div>
+    </dialog>
+    <dialog id="read-more6p">
+        <button onclick="closeDialog6()" class="close">
+            <i class='bx bx-x'></i>
+        </button>
+        <h1>
+            project NAME6
+        </h1>
+        <div class="description">
+            <img alt="Placeholder image with diagonal lines" height="150" src="https://placehold.co/150x150"
+                width="150" />
+            <h2>
+                Description:
+            </h2>
+            <p>
+                The wandering purple giraffes often sing under the golden glow of rainbow-flavored clouds,
+                especially on Thursdays when the invisible fish like to tap-dance. Meanwhile, the electric
+                pineapples discuss philodox with neon-colored owls, pondering why peanut butter doesn’t grow on
+                trees.
+            </p>
+        </div>
+    </dialog>
+    <dialog id="read-more7p">
+        <button onclick="closeDialog7()" class="close">
+            <i class='bx bx-x'></i>
+        </button>
+        <h1>
+            project NAME7
+        </h1>
+        <div class="description">
+            <img alt="Placeholder image with diagonal lines" height="150" src="https://placehold.co/150x150"
+                width="150" />
+            <h2>
+                Description:
+            </h2>
+            <p>
+                The wandering purple giraffes often sing under the golden glow of rainbow-flavored clouds,
+                especially on Thursdays when the invisible fish like to tap-dance. Meanwhile, the electric
+                pineapples discuss philodox with neon-colored owls, pondering why peanut butter doesn’t grow on
+                trees.
+            </p>
+        </div>
+    </dialog>
+    <dialog id="read-more8p">
+        <button onclick="closeDialog8()" class="close">
+            <i class='bx bx-x'></i>
+        </button>
+        <h1>
+            project NAME8
+        </h1>
+        <div class="description">
+            <img alt="Placeholder image with diagonal lines" height="150" src="https://placehold.co/150x150"
+                width="150" />
+            <h2>
+                Description:
+            </h2>
+            <p>
+                The wandering purple giraffes often sing under the golden glow of rainbow-flavored clouds,
+                especially on Thursdays when the invisible fish like to tap-dance. Meanwhile, the electric
+                pineapples discuss philodox with neon-colored owls, pondering why peanut butter doesn’t grow on
+                trees.
+            </p>
+        </div>
+    </dialog>
+    <dialog id="read-more9p">
+        <button onclick="closeDialog9()" class="close">
+            <i class='bx bx-x'></i>
+        </button>
+        <h1>
+            project NAME9
+        </h1>
+        <div class="description">
+            <img alt="Placeholder image with diagonal lines" height="150" src="https://placehold.co/150x150"
+                width="150" />
+            <h2>
+                Description:
+            </h2>
+            <p>
+                The wandering purple giraffes often sing under the golden glow of rainbow-flavored clouds,
+                especially on Thursdays when the invisible fish like to tap-dance. Meanwhile, the electric
+                pineapples discuss philodox with neon-colored owls, pondering why peanut butter doesn’t grow on
+                trees.
+            </p>
+        </div>
+    </dialog>
+    <dialog id="read-more10p">
+        <button onclick="closeDialog10()" class="close">
+            <i class='bx bx-x'></i>
+        </button>
+        <h1>
+            project NAME10
+        </h1>
+        <div class="description">
+            <img alt="Placeholder image with diagonal lines" height="150" src="https://placehold.co/150x150"
+                width="150" />
+            <h2>
+                Description:
+            </h2>
+            <p>
+                The wandering purple giraffes often sing under the golden glow of rainbow-flavored clouds,
+                especially on Thursdays when the invisible fish like to tap-dance. Meanwhile, the electric
+                pineapples discuss philodox with neon-colored owls, pondering why peanut butter doesn’t grow on
+                trees.
+            </p>
+        </div>
+    </dialog>
+    <dialog id="read-more11p">
+        <button onclick="closeDialog11()" class="close">
+            <i class='bx bx-x'></i>
+        </button>
+        <h1>
+            project NAME11
+        </h1>
+        <div class="description">
+            <img alt="Placeholder image with diagonal lines" height="150" src="https://placehold.co/150x150"
+                width="150" />
+            <h2>
+                Description:
+            </h2>
+            <p>
+                The wandering purple giraffes often sing under the golden glow of rainbow-flavored clouds,
+                especially on Thursdays when the invisible fish like to tap-dance. Meanwhile, the electric
+                pineapples discuss philodox with neon-colored owls, pondering why peanut butter doesn’t grow on
+                trees.
+            </p>
+        </div>
+    </dialog>
+    <dialog id="read-more12p">
+        <button onclick="closeDialog12()" class="close">
+            <i class='bx bx-x'></i>
+        </button>
+        <h1>
+            project NAME12
+        </h1>
+        <div class="description">
+            <img alt="Placeholder image with diagonal lines" height="150" src="https://placehold.co/150x150"
+                width="150" />
+            <h2>
+                Description:
+            </h2>
+            <p>
+                The wandering purple giraffes often sing under the golden glow of rainbow-flavored clouds,
+                especially on Thursdays when the invisible fish like to tap-dance. Meanwhile, the electric
+                pineapples discuss philodox with neon-colored owls, pondering why peanut butter doesn’t grow on
+                trees.
+            </p>
+        </div>
+    </dialog>
+
+    <script>
+        const dialog1 = document.getElementById("read-more1p");
+        function showReadMore1p() {
+            dialog1.showModal()
+
+        }
+        function closeDialog1() {
+            dialog1.close();
+        }
+
+        const dialog2 = document.getElementById("read-more2p");
+        function showReadMore2p() {
+            dialog2.showModal()
+
+        }
+        function closeDialog2() {
+            dialog2.close();
+        }
+        const dialog3 = document.getElementById("read-more3p");
+        function showReadMore3p() {
+            dialog3.showModal()
+
+        }
+        function closeDialog3() {
+            dialog3.close();
+        }
+
+        const dialog4 = document.getElementById("read-more4p");
+        function showReadMore4p() {
+            dialog4.showModal()
+
+        }
+        function closeDialog4() {
+            dialog4.close();
+        }
+
+        const dialog5 = document.getElementById("read-more5p");
+        function showReadMore5p() {
+            dialog5.showModal()
+
+        }
+        function closeDialog5() {
+            dialog5.close();
+        }
+
+        const dialog6 = document.getElementById("read-more6p");
+        function showReadMore6p() {
+            dialog6.showModal()
+
+        }
+        function closeDialog6() {
+            dialog6.close();
+        }
+
+        const dialog7 = document.getElementById("read-more7p");
+        function showReadMore7p() {
+            dialog7.showModal()
+
+        }
+        function closeDialog7() {
+            dialog7.close();
+        }
+
+        const dialog8 = document.getElementById("read-more8p");
+        function showReadMore8p() {
+            dialog8.showModal()
+
+        }
+        function closeDialog8() {
+            dialog8.close();
+        }
+
+        const dialog9 = document.getElementById("read-more9p");
+        function showReadMore9p() {
+            dialog9.showModal()
+
+        }
+        function closeDialog9() {
+            dialog9.close();
+        }
+
+        const dialog10 = document.getElementById("read-more10p");
+        function showReadMore10p() {
+            dialog10.showModal()
+
+        }
+        function closeDialog10() {
+            dialog10.close();
+        }
+
+        const dialog11 = document.getElementById("read-more11p");
+        function showReadMore11p() {
+            dialog11.showModal()
+
+        }
+        function closeDialog11() {
+            dialog11.close();
+        }
+
+        const dialog12 = document.getElementById("read-more12p");
+        function showReadMore12p() {
+            dialog12.showModal()
+
+        }
+        function closeDialog12() {
+            dialog12.close();
+        }
+    </script>
+
+    <script src="js/popper.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>

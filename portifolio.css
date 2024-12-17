@@ -1,0 +1,762 @@
+@import url("https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f5f5f5;
+}
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 99.5%;
+  z-index: 100;
+  background: #f5f5f5;
+}
+#navbar #nb{
+  padding: 0;
+
+}
+#navitem {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px 20px 0 0;
+  background: #f5f5f5;
+  justify-items: center;
+  z-index: 100;
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  align-items: center;
+  translate: 0 -26px;
+  height: 150px;
+}
+#navbar img {
+  width: 145px;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 10px;
+  transform: translateX(-25px);
+  background-color: transparent;
+  transition: 0.3s;
+}
+
+
+#navbar img:hover{
+width: 155px;
+}
+
+#portifolio {
+  transform: translateX(10px);
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 49px;
+  font-family: "Holtwood One SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #374957;
+  transform: translateX(99px);
+  transition: .3s;
+
+}
+#portifolio:hover{
+font-size: 55px;
+cursor: none;
+}
+#portifolio .wave {
+  display: inline-block;
+  animation: leFadeInRight 1s 1;
+}
+
+@keyframes leFadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(60px);
+}
+to { opacity: 1;}
+}
+
+#navitem div ul li button{
+  width: auto;
+  height: auto;
+  border: none;
+  background: transparent;
+}
+#navitem div ul li a,#navitem div ul li button a  {
+  margin-right: 15px;
+  font-size: 19.5px;
+  font-family: "Inter";
+  font-optical-sizing: auto;
+  font-weight: 550.7;
+  font-style: normal;
+  color: #374957;
+  text-transform: capitalize;
+  transform: translateX(-70px);
+  transition: 0.3s;
+}
+#navitem div ul li a:hover,#navitem div ul li button a:hover{
+font-size: 22px;
+
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 20px 20px 20px;
+}
+.el7aga-elr2esya {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 50px;
+}
+.el7aga-elr2esya .text {
+  max-width: 500px;
+}
+.el7aga-elr2esya h1 {
+  font-size: 48px;
+  color: #374957;
+  margin-bottom: 20px;
+  transform: translateX(-10px);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+}
+.el7aga-elr2esya h3 {
+  font-size: 18px;
+  color: #888888;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  transform: translateX(-10px);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+}
+
+.el7aga-elr2esya .buttons button{
+width: auto;
+height: auto;
+border: none;
+background: transparent;
+}
+.el7aga-elr2esya .buttons a {
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: 500;
+  margin-right: 10px;
+  box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.4);
+  transform: translateX(-10px);
+  font-size: 20px;
+}
+.el7aga-elr2esya .buttons a.projects {
+  background-color: #343a40;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+  transition: 1s;
+}
+.el7aga-elr2esya .buttons a:hover{
+transform:scale(1.3) ;
+z-index: 2;
+font-size: 22px;
+}
+.el7aga-elr2esya .buttons a.certificates {
+  background-color: #f8f9fa;
+  color: #374957;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+  transition: 1s;
+}
+.el7aga-elr2esya .image{
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  background-size: 56.57px 56.57px;
+  transform: translateY(20px);
+background-size: contain;
+background-position: center;
+}
+.el7aga-elr2esya .image img {
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  background-size: 56.57px 56.57px;
+  transform: translateY(20px);
+  /* opacity: 0.2; */
+  transition: 1s;
+  object-fit: cover;
+
+}
+.el7aga-elr2esya .image img:hover{
+  transform:scale(1.1) ;
+  z-index: 2;
+}
+.el7aga-elr2esya .buttons {
+  transform: translateX(-9px);
+}
+.Social h1 {
+  color: #374957;
+  font-size: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+  padding-top: 100px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+
+}
+.social-icons a img {
+  width: 80px;
+  height: 80px;
+  transform: translateY(10px);
+  transition: 1s;
+}
+.social-icons a img:hover{
+  transform: scale(1.1) ;
+  z-index: 2;
+}
+
+
+#Project-Cards {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 20px;
+transform: translateY(50px);
+
+}
+#Project-Cards #Latest-h1 h1 {
+
+  color: #374957;
+  font-size: 76px;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  padding-top: 100px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+#Proj-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+#Project-Cards #Proj-container #projectt1 {
+  width: 334px;
+  margin-bottom: 20px;
+  transform: translateX(50px);
+  border-radius: 20px;
+}
+#projectt1 img {
+  width: 100%;
+  height: 347px;
+  border-radius: 20px;
+  transform: translateX(50px);
+}
+#projectt1 h2{
+  transform: translateX(50px);
+color: #374957;
+}
+#projectt1 p{
+  transform: translateX(50px);
+}
+#Proj-container h2 , #Project-Cards #Proj-container #projectt2 h2 {
+  font-size: 40px;
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: #374957;
+}
+#Proj-container p {
+  font-size: 25px;
+  color: #374957;
+  font-weight:400 ;
+}
+
+#read-more1,#read-more2,#read-more3,#read-more4{
+  margin-top: 10px;
+  display: inline-block;
+padding: 10px 20px;
+  background-color: #374957;
+  color: #f5f5f5;
+  text-decoration: none;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+  transition: 1s;
+   transform: translateX(50px);
+}
+#read-more2:hover,#read-more3:hover{
+  transform: scale(1.1) ;
+  z-index: 2;
+}
+#projectt2 #read-more4:hover,#read-more1:hover{
+font-size: 18.5px;
+}
+
+#read-more2,#read-more3{
+transform: translateX(-2px);
+}
+#projectt2 #read-more4{
+  transform: translateX(-37px);
+}
+
+#project-large1 {
+  width: 599px;
+  transform: translateX(-200px);
+  border-radius: 20px;
+object-fit: cover;
+object-position: center;
+}
+#project-large2 {
+  width: 599px;
+  transform: translateX(90px);
+  padding-top: 50px;
+  border-radius: 20px;
+}
+#Project-Cards #project-large1 img,#Project-Cards #project-large2 img{
+  border-radius: 20px;
+}
+
+#Project-Cards #project-large1 p,#Project-Cards #project-large2 p{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: #374957;
+font-size: 25px;
+}
+
+#projectt2 {
+  width: 334px;
+  margin-bottom: 20px;
+  transform: translateX(-150px);
+  padding-top: 50px;
+  border-radius: 20px;
+}
+#projectt2 img {
+  width: 100%;
+  height: 347px;
+  border-radius: 20px;
+  transform: translateX(-40px);
+}
+#projectt2 h2 {
+  font-size: 24px;
+  margin: 10px 0 5px;
+  transform: translateX(-40px);
+  font-weight: bold;
+}
+#projectt2 p {
+  transform: translateX(-40px);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: #374957;
+font-size: 25px;
+
+}
+#Project-Cards .moreb{
+display: inline-block;
+translate: 1100px 0;
+}
+
+#Project-Cards .more-link {
+  display: flex;
+  justify-content: end;
+  text-decoration: none;
+  color: #374957;
+  font-size: 23px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  gap: 10px;
+  translate: 0 30px;
+  transition: 1s;
+}
+#Project-Cards .more-link:hover{
+transform: scale(1.1)  translateX(5px);
+z-index: 2;
+}
+
+#Project-Cards .more-link i {
+  transform: translateY(8.5px);
+  transition: 1s;
+}
+
+
+.Certificates {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 20px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+  color: #374957;
+}
+.Certificates h1 {
+  color: #374957;
+  font-size: 76px;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  padding-top: 100px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+.Certificates #card-container {
+
+  display: flex;
+  gap: 13px;
+  box-shadow: rgba(206, 205, 205, 0.362);
+  border: none;
+}
+.Certificates #card-item {
+  width: 250px;
+  height: 459px;
+  background-color: #f5f5f5;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: translateX(170px);
+}
+.Certificates #card-img {
+  /* width: 75%;
+  height: auto ;
+transform: translateX(40px); */
+  width: 320px;
+  height: 240px;
+  opacity: 0.2;
+  border-radius: 20px;
+  object-fit: cover;
+  background-size: 20px 20px;
+}
+.Certificates #card-button1,.Certificates #card-button2,.Certificates #card-button3{
+  background-color: #374957;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  border: none;
+  border-radius: 8px;
+  transform: translate(10.5px, 16px);
+transition: 1s;
+}
+.Certificates #card-button1:hover,.Certificates #card-button2:hover,.Certificates #card-button3:hover{
+  transform: scale(1.1) translate(9px,10px) ;
+  z-index: 1;
+}
+
+.Certificates #card-htitle {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  margin-bottom: 10px;
+  color: #374957;
+  transform: translate(10.5px, 16px);
+}
+
+.Certificates #card-tbody {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: lighter;
+  font-style: normal;
+  color: #374957;
+  transform: translate(10.5px, 16px);
+}
+.Certificates .moreb{
+  display: inline-block;
+  translate: 1100px 0;
+  }
+
+.Certificates .more-link {
+  display: flex;
+  justify-content: end;
+  text-decoration: none;
+  color: #374957;
+  font-size: 23px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  gap: 10px;
+  translate: 0 30px;
+  transition: 1s;
+}
+.Certificates .more-link:hover{
+  transform: scale(1.1) ;
+  z-index: 1;
+  }
+.Certificates .more-link i {
+  transform: translateY(8.5px);
+}
+
+.Contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  max-width: 1300px;
+  background-color: #f5f5f5;
+  padding: 40px;
+  border-radius: 20px;
+  margin-top: 60px;
+transform: translateX(150px);
+  border: none;
+
+}
+.left {
+  text-align: center;
+  color: #374957;
+}
+.left h1 {
+  font-size: 50px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+  margin-bottom: 10px;
+  color: #374957;
+text-transform: capitalize;
+}
+
+.left .profile-pic{
+  width: 444px;
+  height: 424px;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+}
+.left .profile-pic img {
+  width: 444px;
+  height: 424px;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  /* background-image: url('images/download.svg'); */
+  background-size: cover;
+  background-position: center;
+opacity: 0.2;
+transition: 1s;
+}
+.left .profile-pic img:hover{
+  transform: scale(1.1) ;
+  z-index: 2;
+}
+
+.left .social-iconss {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.left .social-iconss a {
+  color: #374957;
+  font-size: 80px;
+  text-decoration: none;
+}
+.right {
+  width: 50%;
+}
+.right form {
+  display: flex;
+  flex-direction: column;
+}
+.right form input,
+.right form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 15px;
+  font-size: 16px;
+  background-color:#bbbbbb21 ;
+  color: #333;
+}
+.right textarea {
+  height: 125px;
+}
+
+.right form .bsubmit {
+
+  background-color: #a2aab1;
+  color: #f5f5f5;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: .5s;
+  text-align: center;
+  border-radius: 10px;
+}
+.right form button {
+  width: 100%;
+  padding: 10px;
+  height: auto;
+  background-color: #a2aab1;
+  color: #f5f5f5;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: .5s;
+  border-radius: 10px;
+}
+.right form .bsubmit:hover,.right form button:hover{
+  background-color: #374856;
+  border-radius: 10px;
+}
+
+#social-iconss{
+transform: translate(-5px , -80px);
+}
+.Contact .right label{
+  color: #374957;
+}
+.right button {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+}
+
+#read-more1p,#read-more2p,#read-more3p,#read-more4p  {
+  background-color: #f5f5f5;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 375px;
+  padding: 20px;
+  position: relative;
+border: 1.5 ;
+border-color: #f5f5f5;
+box-shadow:rgba(206, 205, 205, 0.362);;
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -45%);
+}
+#read-more1p::backdrop,#read-more2p::backdrop,#read-more3p::backdrop,#read-more4p::backdrop{
+background: transparent;
+}
+#read-more1p .close,#read-more2p .close,#read-more3p .close,#read-more4p .close  {
+  transform: translate(315px, -10px);
+  font-size: 35px;
+  cursor: pointer;
+border: none;
+background: transparent;
+}
+#read-more1p h1 ,#read-more2p h1 ,#read-more3p h1,#read-more4p h1{
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family: "Holtwood One SC", serif;
+  font-weight: bold;
+  font-style: normal;
+  color: #374957;
+  margin: 0 0 20px;
+text-align: center;
+}
+#read-more1p img ,#read-more2p img,#read-more3p img,#read-more4p img  {
+  width: 250px;
+  height: auto;
+  margin: 0 auto 20px;
+margin-left: 45px;
+}
+#read-more1p .description,#read-more2p .description,#read-more3p .description,#read-more4p .description  {
+  text-align: left;
+}
+#read-more1p .description h2 ,#read-more2p .description h2,#read-more3p .description h2,#read-more4p .description h2 {
+  margin: 0 0 10px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+  color: #374957;
+text-transform: capitalize;
+}
+#read-more1p .description p,#read-more2p .description p,#read-more3p .description p ,#read-more4p .description p   {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #374957d0;
+}
+
+#read-more1c, #read-more2c, #read-more3c {
+  background-color: #f5f5f5;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 375px;
+  padding: 20px;
+  position: relative;
+border: 1.5 ;
+border-color: #f5f5f5;
+box-shadow:rgba(206, 205, 205, 0.362);;
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -45%);
+}
+#read-more1c::backdrop,#read-more2c::backdrop,#read-more3c::backdrop{
+background: transparent;
+}
+#read-more1c .close,#read-more2c .close,#read-more3c .close {
+  transform: translate(315px, -10px);
+  font-size: 35px;
+  cursor: pointer;
+border: none;
+background: transparent;
+}
+#read-more1c h1,#read-more2c h1 ,#read-more3c h1  {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family: "Holtwood One SC", serif;
+  font-weight: bold;
+  font-style: normal;
+  color: #374957;
+  margin: 0 0 20px;
+text-align: center;
+}
+#read-more1c img,#read-more2c img,#read-more3c img {
+  width: 250px;
+  height: auto;
+  margin: 0 auto 20px;
+margin-left: 45px;
+}
+#read-more1c .description ,#read-more2c .description ,#read-more3c .description {
+  text-align: left;
+}
+#read-more1c .description h2,#read-more2c .description h2,#read-more3c .description h2 {
+  margin: 0 0 10px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+  color: #374957;
+text-transform: capitalize;
+}
+#read-more1c .description p,#read-more2c .description p,#read-more3c .description p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #374957d0;
+}

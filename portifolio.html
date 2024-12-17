@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="portifolio.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- navbar -->
+  <header id="navbar">
+    <nav id="nb" class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid" id="navitem">
+        <span><img src="Icons/S_copy-removebg-preview.png" alt="" /></span>
+        <a id="portifolio" class="navbar-brand" href="#">
+          <span class="wave">p</span><span class="wave">o</span><span class="wave">r</span><span class="wave">t</span><span class="wave">f</span><span class="wave">o</span><span class="wave">l</span><span class="wave">i</span><span class="wave">o</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <button onclick="document.getElementById('navbar').scrollIntoView({ behavior: 'smooth' });"><a class="nav-link active" aria-current="page" href="#">About</a></button>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects page.html">projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="certification page.html">certifcates</a>
+            </li>
+            <li class="nav-item">
+              <button onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });"><a class="nav-link" href="#">contact</a></button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="el7aga-elr2esya">
+      <div class="text">
+        <h1>Ahmed Gamal</h1>
+        <h3>
+A Certified Professional Tranier & Certified Instructional Designer Who Has 3+ Years of experience in the learning and development field.
+i have a strong background in both instructional design and training delivery,
+allowing me to create engaging and effective learning solutions for employees at all levels.
+        </h3>
+        <div class="buttons">
+          <button onclick="document.getElementById('Project-Cards').scrollIntoView({ behavior: 'smooth' });"><a class="projects" href="#"> Projects </a> </button>
+          <button onclick="document.getElementById('certification-cards').scrollIntoView({ behavior: 'smooth' });"><a class="certificates" href="#"> Certificates </a> </button>
+        </div>
+      </div>
+      <div class="image"><img id="image" src="images/WhatsApp Image 2024-12-10 at 08.09.20_4539a752.jpg" alt=""></div>
+    </div>
+  </div>
+  <div class="Social">
+    <h1>Social Media</h1>
+  </div>
+  <div class="social-icons">
+    <!-- <a href="#"><i class="fab fa-facebook"></i></a> -->
+    <a href="#"><img src="Icons/communication-removebg-preview.png" alt=""></a>
+    <a href="#"><img src="Icons/whatsapp-removebg-preview.png" alt=""></a>
+    <a href="#"><img src="Icons/linkedin-removebg-preview.png" alt=""></i></a>
+    <a href="#"><img src="Icons/instagram-removebg-preview.png" alt=""></a>
+  </div>
+
+  <div id="Project-Cards">
+    <div id="Latest-h1">
+      <h1>
+        Latest Projects
+      </h1>
+    </div>
+    <div id="Proj-container">
+      <div id="projectt1">
+        <img alt="Placeholder image for project" height="347" src="images/p1.jpg" width="334" />
+        <div id="h22">
+          <h2>
+Speaker at MSP-Tech Helwan Universty.
+          </h2>
+
+          <p>
+            The speech was about what is the role of the learning and development profession and how to join the L&D field.
+          </p>
+        </div>
+<button id="read-more1" onclick="showloginDialog()">
+  Read More
+</button>
+      </div>
+      <div id="project-large1">
+        <img alt="Placeholder image for project" height="347" src="images/WhatsApp Image 2024-12-10 at 08.18.18_809e020c.jpg" width="599" />
+        <div id="h22">
+          <h2>
+            Mini Training of Trainers Course (TOT) to AIBE-ASU          </h2>
+
+          <p>
+            A Training of Trainers (TOT) course equips participants with the skills, knowledge,
+            and techniques to effectively train others,
+             focusing on facilitation, communication, and instructional design.
+          </p>
+        </div>
+        <button id="read-more2" onclick="showReadMore2()">
+          Read More
+        </button>
+      </div>
+      <div id="project-large2">
+        <img alt="Placeholder image for project" height="347" src="https://placehold.co/599x347" width="599" />
+        <div id="h22">
+          <h2>
+            Project
+          </h2>
+
+          <p>
+            Project is a set of tasks Project is a set of tasks that must be completed that must be completed.
+          </p>
+        </div>
+        <button id="read-more3" onclick="showReadMore3()">
+          Read More
+        </button>
+      </div>
+      <div id="projectt2">
+        <img alt="Placeholder image for project" height="347" src="https://placehold.co/334x347" width="334" />
+        <div id="h22">
+          <h2>
+            Project
+          </h2>
+
+          <p>
+            Project is a set of tasks that must be completed.
+          </p>
+        </div>
+        <button id="read-more4" onclick="showReadMore4()">
+          Read More
+        </button>
+      </div>
+    </div>
+    <div class="moreb"><a href="projects page.html" class="more-link">More <i class='bx bxs-right-arrow'></i></a></div>
+  </div>
+
+
+  <div id="certification-cards" class="Certificates">
+    <h1>latest Certificates</h1>
+    <div id="card-container">
+      <div id="card-item" class="card" style="width: 320px;">
+        <img id="card-img" src="images/download.svg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 id="card-htitle" class="card-title">Card title</h5>
+          <p id="card-tbody" class="card-text">Some quick example text to build on the card title and make up the bulk
+            of the card's content.</p>
+          <button id="card-button1" class="btn btn-primary" onclick="showReadMore1c()">
+            Read More
+          </button>
+        </div>
+      </div>
+      <div id="card-item" class="card" style="width: 320px;">
+        <img id="card-img" src="images/download.svg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 id="card-htitle" class="card-title">Card title</h5>
+          <p id="card-tbody" class="card-text">Some quick example text to build on the card title and make up the bulk
+            of the card's content.</p>
+            <button id="card-button2" class="btn btn-primary" onclick="showReadMore2c()">
+              Read More
+            </button>
+        </div>
+      </div>
+      <div id="card-item" class="card" style="width: 320px;">
+        <img id="card-img" src="images/download.svg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 id="card-htitle" class="card-title">Card title</h5>
+          <p id="card-tbody" class="card-text">Some quick example text to build on the card title and make up the bulk
+            of the card's content.</p>
+            <button id="card-button3" class="btn btn-primary" onclick="showReadMore3c()">
+              Read More
+            </button>
+        </div>
+      </div>
+    </div>
+    <div class="moreb"><a href="certification page.html" class="more-link">More <i class='bx bxs-right-arrow'></i></a></div>
+  </div>
+
+  <div id="contact" class="Contact">
+    <div class="left">
+        <h1>
+          Contact with Portfolio
+        </h1>
+        <div class="profile-pic"><img id="image1" src="images/download.svg" alt=""></div>
+        <div class="social-icons" id="social-iconss">
+          <a href="#"><img src="Icons/communication-removebg-preview.png" alt=""></a>
+          <a href="#"><img src="Icons/whatsapp-removebg-preview.png" alt=""></a>
+          <a href="#"><img src="Icons/linkedin-removebg-preview.png" alt=""></i></a>
+          <a href="#"><img src="Icons/instagram-removebg-preview.png" alt=""></a>
+        </div>
+    </div>
+    <div class="right">
+        <form>
+          <label for="input-text">Name</label>
+            <input id="input-text" type="text" name="name" placeholder="3sfur">
+            <label for="input-email">Email</label>
+            <input id="input-email" type="email" name="email" placeholder="3sfur@gmail.com">
+            <label for="textarea">Massage</label>
+            <textarea id="textarea" name="message" placeholder="Your message..."></textarea>
+            <a class="bsubmit" href=""><button type="submit">Submit</button></a>
+        </form>
+    </div>
+  </div>
+
+
+  <dialog  id="read-more1p">
+    <button onclick="closeDialog()" class="close" >
+      <i class='bx bx-x'></i>
+    </button>
+    <h1>
+        PROJECT NAME
+    </h1>
+    <div class="description">
+        <img alt="Placeholder image with diagonal lines" height="150" src="https://placehold.co/150x150"
+            width="150" />
+        <h2>
+            Description:
+        </h2>
+        <p>
+            The wandering purple giraffes often sing under the golden glow of rainbow-flavored clouds,
+            especially on Thursdays when the invisible fish like to tap-dance. Meanwhile, the electric
+            pineapples discuss philodox with neon-colored owls, pondering why peanut butter doesn’t grow on
+            trees.
+        </p>
+    </div>
+</dialog>
+
+<dialog  id="read-more2p">
+  <button onclick="closeDialog2()" class="close" >
+    <i class='bx bx-x'></i>
+  </button>
+  <!-- <h1>
+    TOT
+  </h1> -->
+  <div class="description">
+      <img alt="Placeholder image with diagonal lines" height="150" src="images/ppop2.jpg"
+          width="150" />
+      <h2>
+          Description:
+      </h2>
+      <p>
+Delivering the training of trainers program with the amazing AIBE-ASU <br><br>
+we discussed the following: <br>
+1-overview about A.D.D.I.E framework. <br>
+2-learning methodologies.<br>
+3-types of audience.<br>
+4-presentation skills.<br>
+5-writing learning objectives.<br>
+6-tools to use to make the audience more engaged.<br>
+      </p>
+  </div>
+</dialog>
+
+<dialog  id="read-more3p">
+  <button onclick="closeDialog3()" class="close" >
+    <i class='bx bx-x'></i>
+  </button>
+  <h1>
+      PROJECT NAME3
+  </h1>
+  <div class="description">
+      <img alt="Placeholder image with diagonal lines" height="150" src="https://placehold.co/150x150"
+          width="150" />
+      <h2>
+          Description:
+      </h2>
+      <p>
+          The wandering purple giraffes often sing under the golden glow of rainbow-flavored clouds,
+          especially on Thursdays when the invisible fish like to tap-dance. Meanwhile, the electric
+          pineapples discuss philodox with neon-colored owls, pondering why peanut butter doesn’t grow on
+          trees.
+      </p>
+  </div>
+</dialog>
+
+<dialog  id="read-more4p">
+  <button onclick="closeDialog4()" class="close" >
+    <i class='bx bx-x'></i>
+  </button>
+  <h1>
+      PROJECT NAME4
+  </h1>
+  <div class="description">
+      <img alt="Placeholder image with diagonal lines" height="150" src="https://placehold.co/150x150"
+          width="150" />
+      <h2>
+          Description:
+      </h2>
+      <p>
+          The wandering purple giraffes often sing under the golden glow of rainbow-flavored clouds,
+          especially on Thursdays when the invisible fish like to tap-dance. Meanwhile, the electric
+          pineapples discuss philodox with neon-colored owls, pondering why peanut butter doesn’t grow on
+          trees.
+      </p>
+  </div>
+</dialog>
+
+<dialog  id="read-more1c">
+  <button onclick="closeDialog1c()" class="close" >
+    <i class='bx bx-x'></i>
+  </button>
+  <h1>
+      certifcate NAME1
+  </h1>
+  <div class="description">
+      <img alt="Placeholder image with diagonal lines" height="150" src="https://placehold.co/150x150"
+          width="150" />
+      <h2>
+          Description:
+      </h2>
+      <p>
+          The wandering purple giraffes often sing under the golden glow of rainbow-flavored clouds,
+          especially on Thursdays when the invisible fish like to tap-dance. Meanwhile, the electric
+          pineapples discuss philodox with neon-colored owls, pondering why peanut butter doesn’t grow on
+          trees.
+      </p>
+  </div>
+</dialog>
+
+<dialog  id="read-more2c">
+  <button onclick="closeDialog2c()" class="close" >
+    <i class='bx bx-x'></i>
+  </button>
+  <h1>
+      certifcate NAME2
+  </h1>
+  <div class="description">
+      <img alt="Placeholder image with diagonal lines" height="150" src="https://placehold.co/150x150"
+          width="150" />
+      <h2>
+          Description:
+      </h2>
+      <p>
+          The wandering purple giraffes often sing under the golden glow of rainbow-flavored clouds,
+          especially on Thursdays when the invisible fish like to tap-dance. Meanwhile, the electric
+          pineapples discuss philodox with neon-colored owls, pondering why peanut butter doesn’t grow on
+          trees.
+      </p>
+  </div>
+</dialog>
+
+<dialog  id="read-more3c">
+  <button onclick="closeDialog3c()" class="close" >
+    <i class='bx bx-x'></i>
+  </button>
+  <h1>
+      certifcate NAME3
+  </h1>
+  <div class="description">
+      <img alt="Placeholder image with diagonal lines" height="150" src="https://placehold.co/150x150"
+          width="150" />
+      <h2>
+          Description:
+      </h2>
+      <p>
+          The wandering purple giraffes often sing under the golden glow of rainbow-flavored clouds,
+          especially on Thursdays when the invisible fish like to tap-dance. Meanwhile, the electric
+          pineapples discuss philodox with neon-colored owls, pondering why peanut butter doesn’t grow on
+          trees.
+      </p>
+  </div>
+</dialog>
+
+  <script>
+let isDragging = false;
+let offsetX = 0;
+let offsetY = 0;
+const originalLeft = image.offsetLeft; // Store original position
+const originalTop = image.offsetTop; // Store original position
+
+// Prevent default drag behavior
+image.addEventListener('dragstart', (e) => {
+    e.preventDefault();
+});
+
+image.addEventListener('mousedown', (e) => {
+    // Check for left mouse button (button 0)
+    if (e.button === 0) {
+        isDragging = true;
+        offsetX = e.clientX - image.offsetLeft;
+        offsetY = e.clientY - image.offsetTop;
+        image.style.cursor = 'grabbing';
+
+        // Disable transition during dragging
+        image.style.transition = 'none';
+    }
+});
+
+document.addEventListener('mousemove', (e) => {
+    if (isDragging) {
+        image.style.position = 'absolute'; // Ensure the image can be moved freely
+        image.style.left = `${e.clientX - offsetX}px`;
+        image.style.top = `${e.clientY - offsetY}px`;
+    }
+});
+
+document.addEventListener('mouseup', (e) => {
+    // Check for releasing the left mouse button
+    if (e.button === 0) {
+        isDragging = false;
+        image.style.cursor = 'grab';
+
+        // Reset the image to its original position when the mouse button is released
+        image.style.left = `${originalLeft}px`;
+        image.style.top = `${originalTop}px`;
+
+        // Re-enable transition after dragging
+        image.style.transition = '0.5s'; // Reset to default transition
+    }
+});
+
+// Prevent the context menu from appearing on right-click
+image.addEventListener('contextmenu', (e) => {
+    e.preventDefault();
+});
+
+
+let isDragging1 = false;
+let offsetX1 = 0;
+let offset1Y = 0;
+const originalLeft1 = image1.offsetLeft; // Store original position
+const originalTop1 = image1.offsetTop; // Store original position
+
+image1.addEventListener('dragstart', (e) => {
+    e.preventDefault();
+});
+
+image1.addEventListener('mousedown', (e) => {
+    // Check for left mouse button (button 0)
+    if (e.button === 0) {
+        isDragging1 = true;
+        offsetX1 = e.clientX - image1.offsetLeft;
+        offsetY1 = e.clientY - image1.offsetTop;
+        image1.style.cursor = 'grabbing';
+
+        // Disable transition during dragging
+        image1.style.transition = 'none';
+    }
+});
+
+document.addEventListener('mousemove', (e) => {
+    if (isDragging1) {
+        image1.style.position = 'absolute'; // Ensure the image can be moved freely
+        image1.style.left = `${e.clientX - offsetX1}px`;
+        image1.style.top = `${e.clientY - offsetY1}px`;
+    }
+});
+
+document.addEventListener('mouseup', (e) => {
+    // Check for releasing the left mouse button
+    if (e.button === 0) {
+        isDragging1 = false;
+        image1.style.cursor = 'grab';
+
+        // Reset the image to its original position when the mouse button is released
+        image1.style.left = `${originalLeft1}px`;
+        image1.style.top = `${originalTop1}px`;
+
+        // Re-enable transition after dragging
+        image1.style.transition = '0.5s'; // Reset to default transition
+    }
+});
+
+// Prevent the context menu from appearing on right-click
+image1.addEventListener('contextmenu', (e) => {
+    e.preventDefault();
+});
+
+
+const dialog = document.getElementById("read-more1p");
+        function showloginDialog() {
+            dialog.showModal()
+
+        }
+        function closeDialog() {
+        dialog.close();
+    }
+
+    const dialog2 = document.getElementById("read-more2p");
+        function showReadMore2() {
+            dialog2.showModal()
+
+        }
+        function closeDialog2() {
+          dialog2.close();
+        }
+    const dialog3 = document.getElementById("read-more3p");
+        function showReadMore3() {
+            dialog3.showModal()
+
+        }
+        function closeDialog3() {
+          dialog3.close();
+        }
+
+        const dialog4 = document.getElementById("read-more4p");
+        function showReadMore4() {
+            dialog4.showModal()
+
+        }
+        function closeDialog4() {
+          dialog4.close();
+        }
+
+        const dialog1c = document.getElementById("read-more1c");
+        function showReadMore1c() {
+            dialog1c.showModal()
+
+        }
+        function closeDialog1c() {dialog1c.close();}
+
+        const dialog2c = document.getElementById("read-more2c");
+        function showReadMore2c() {
+            dialog2c.showModal()
+        }
+        function closeDialog2c() {dialog2c.close();}
+
+        const dialog3c = document.getElementById("read-more3c");
+        function showReadMore3c() {
+            dialog3c.showModal()
+        }
+        function closeDialog3c() {dialog3c.close();}
+
+const waves = document.querySelectorAll('.wave');
+
+waves.forEach((wave, index) => {
+    wave.style.animationDelay = `${index * 0.1}s`; // Delay each letter's animation
+});
+
+        </script>
+
+
+
+  <script src="js/popper.js"></script>
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+</body>
+
+</html>

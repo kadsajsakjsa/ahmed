@@ -1,0 +1,368 @@
+@import url("https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f5f5f5;
+}
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 99.5%;
+  z-index: 100;
+  background: #f5f5f5;
+}
+#navitem {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px 20px 0 0;
+  background: #f5f5f5;
+  justify-items: center;
+  z-index: 100;
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  align-items: center;
+  translate: 0 -25px;
+  height: 150px;
+}
+#navbar img {
+  width: 145px;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 10px;
+  transform: translateX(-25px);
+  background-color: transparent;
+  transition: 0.3s;
+}
+#navbar img:hover {
+  width: 155px;
+}
+
+#portifolio {
+  transform: translateX(10px);
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 49px;
+  font-family: "Holtwood One SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #374957;
+  transform: translateX(99px);
+  transition: 0.3s;
+}
+#portifolio:hover {
+  font-size: 55px;
+  cursor: none;
+}
+
+#navitem div ul li a {
+  margin-right: 15px;
+  font-size: 19.5px;
+  font-family: "Inter";
+  font-optical-sizing: auto;
+  font-weight: 550.7;
+  font-style: normal;
+  color: #374957;
+  text-transform: capitalize;
+  transform: translateX(-70px);
+  transition: 0.3s;
+}
+#navitem div ul li a:hover {
+  font-size: 22px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #374957;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  transform: translate(220px, 200px);
+  text-transform: capitalize;
+}
+
+.button i {
+  margin-right: 5px;
+}
+#card-container {
+  margin-top: 200px;
+  margin-left: 200px;
+  width: 80%;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #f5f5f5;
+  border: none;
+}
+#fline #card-item {
+  display: inline-block;
+  background-color: #f5f5f5;
+  border-radius: 20px;
+}
+#fline .item1 {
+  margin-left: 150px;
+}
+#fline #card-img {
+  opacity: 0.2;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+  background-size: 20px 20px;
+  border: none;
+}
+#fline .item1 #card-img {
+  width: 599px;
+  height: 357px;
+}
+
+#fline #card-button {
+  background-color: #374957;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  border: none;
+  border-radius: 8px;
+  transform: translate(10.5px, 7px);
+  transition: 1s;
+}
+#fline #card-button:hover {
+  transform: scale(1.1) translate(9px, 10px);
+  z-index: 1;
+}
+
+/* #fline #card-button{
+  background-color: #374957;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  border: none;
+  border-radius: 8px;
+  transform: translate(10.5px, 16px);
+transition: 1s;
+}
+#fline #card-button:hover{
+  transform: scale(1.1) translate(9px,10px) ;
+  z-index: 1;
+} */
+
+#fline #card-htitle {
+font-family: "Inter", sans-serif;
+font-optical-sizing: auto;
+font-weight: bold;
+font-style: normal;
+margin-bottom: 10px;
+color: #374957;
+transform: translate(10.5px, 7px);
+text-transform: capitalize;
+font-size: x-large;
+}
+
+#fline #card-tbody {
+font-family: "Inter", sans-serif;
+font-optical-sizing: auto;
+font-weight: lighter;
+font-style: normal;
+color: #374957;
+transform: translate(10.5px, 7px);
+font-size: large;
+}
+
+#sline {
+margin-top: 50px;
+}
+#sline #card-item {
+display: inline-block;
+background-color: #f5f5f5;
+border-radius: 20px;
+}
+#sline .item2 {
+margin-left: 150px;
+}
+#sline #card-img {
+opacity: 0.2;
+border-radius: 20px 20px 0 0;
+object-fit: cover;
+background-size: 20px 20px;
+border: none;
+}
+#sline .item1 #card-img {
+width: 599px;
+height: 357px;
+}
+
+#sline #card-button {
+background-color: #374957;
+font-family: "Inter", sans-serif;
+font-optical-sizing: auto;
+font-weight: 400;
+font-style: normal;
+font-size: 14px;
+border: none;
+border-radius: 8px;
+transform: translate(10.5px, 7px);
+transition: 1s;
+}
+#sline #card-button:hover {
+transform: scale(1.1) translate(9px, 10px);
+z-index: 1;
+}
+
+#sline #card-htitle {
+font-family: "Inter", sans-serif;
+font-optical-sizing: auto;
+font-weight: bold;
+font-style: normal;
+margin-bottom: 10px;
+color: #374957;
+transform: translate(10.5px, 7px);
+text-transform: capitalize;
+font-size: x-large;
+}
+
+#sline #card-tbody {
+font-family: "Inter", sans-serif;
+font-optical-sizing: auto;
+font-weight: lighter;
+font-style: normal;
+color: #374957;
+transform: translate(10.5px, 7px);
+font-size: large;
+}
+#tline {
+  margin-top: 50px;
+}
+#tline #card-item {
+  display: inline-block;
+  background-color: #f5f5f5;
+  border-radius: 20px;
+}
+#tline .item1 {
+  margin-left: 150px;
+}
+#tline #card-img {
+  opacity: 0.2;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+  background-size: 20px 20px;
+  border: none;
+}
+#tline .item1 #card-img {
+width: 599px;
+height: 357px;
+}
+
+#tline #card-button {
+  background-color: #374957;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  border: none;
+  border-radius: 8px;
+  transform: translate(10.5px, 7px);
+  transition: 1s;
+}
+#tline #card-button:hover {
+  transform: scale(1.1) translate(9px, 10px);
+  z-index: 1;
+}
+
+#tline #card-htitle {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  margin-bottom: 10px;
+  color: #374957;
+  transform: translate(10.5px, 7px);
+  text-transform: capitalize;
+  font-size: x-large;
+}
+
+#tline #card-tbody {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: lighter;
+  font-style: normal;
+  color: #374957;
+  transform: translate(10.5px, 7px);
+  font-size: large;
+}
+
+
+
+#read-more1p,#read-more2p,#read-more3p,#read-more4p,#read-more5p,#read-more6p,#read-more7p,#read-more8p,#read-more9p,#read-more10p,#read-more11p,#read-more12p  {
+  background-color: #f5f5f5;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 375px;
+  padding: 20px;
+  position: relative;
+border: 1.5 ;
+border-color: #f5f5f5;
+box-shadow:rgba(206, 205, 205, 0.362);;
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -45%);
+}
+#read-more1p::backdrop,#read-more2p::backdrop,#read-more3p::backdrop,#read-more4p::backdrop,#read-more5p::backdrop,#read-more6p::backdrop,#read-more7p::backdrop,#read-more8p::backdrop,#read-more9p::backdrop,#read-more10p::backdrop,#read-more11p::backdrop,#read-more12p::backdrop{
+background: transparent;
+}
+#read-more1p .close,#read-more2p .close,#read-more3p .close,#read-more4p .close,#read-more5p .close,#read-more6p .close,#read-more7p .close,#read-more8p .close,#read-more9p .close,#read-more10p .close,#read-more11p .close,#read-more12p .close  {
+  transform: translate(315px, -10px);
+  font-size: 35px;
+  cursor: pointer;
+border: none;
+background: transparent;
+}
+#read-more1p h1 ,#read-more2p h1 ,#read-more3p h1,#read-more4p h1,#read-more5p h1,#read-more6p h1,#read-more7p h1,#read-more8p h1,#read-more9p h1,#read-more10p h1,#read-more11p h1,#read-more12p h1{
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family: "Holtwood One SC", serif;
+  font-weight: bold;
+  font-style: normal;
+  color: #374957;
+  margin: 0 0 20px;
+text-align: center;
+}
+#read-more1p img ,#read-more2p img,#read-more3p img,#read-more4p img ,#read-more5p img ,#read-more6p img,#read-more7p img,#read-more8p img ,#read-more9p img ,#read-more10p img,#read-more11p img,#read-more12p img  {
+  width: 250px;
+  height: auto;
+  margin: 0 auto 20px;
+margin-left: 45px;
+}
+#read-more1p .description,#read-more2p .description,#read-more3p .description,#read-more4p .description,#read-more5p .description,#read-more6p .description,#read-more7p .description,#read-more8p .description ,#read-more9p .description,#read-more10p .description,#read-more11p .description,#read-more12p .description  {
+  text-align: left;
+}
+#read-more1p .description h2 ,#read-more2p .description h2,#read-more3p .description h2,#read-more4p .description h2,#read-more5p .description h2 ,#read-more6p .description h2,#read-more7p .description h2,#read-more8p .description h2,#read-more9p .description h2 ,#read-more10p .description h2,#read-more11p .description h2,#read-more12p .description h2 {
+  margin: 0 0 10px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+  color: #374957;
+  text-transform: capitalize;
+}
+#read-more1p .description p,#read-more2p .description p,#read-more3p .description p ,#read-more4p .description p,#read-more5p .description p,#read-more6p .description p,#read-more7p .description p ,#read-more8p .description p ,#read-more9p .description p,#read-more10p .description p,#read-more11p .description p ,#read-more12p .description p   {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #374957d0;
+}
